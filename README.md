@@ -8,24 +8,27 @@
 
 <body>
     <img id="robinho" src="robinho.jpeg"
-    <div>
-    <h1>Sobre a Barbearia Alura</h1>
+    <div class="principal">
+      <h1>Sobre a Barbearia Alura</h1>
 
-    <p style="text-align: center">Localizada no coração da cidade a <Strong>Barbearia Alura</Strong> traz para o mercado o   que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já édestaque   na cidade e conquista novos clientes a cada dia.</p>
+      <p style="text-align: center">Localizada no coração da cidade a <Strong>Barbearia Alura</Strong> traz para o mercado o   que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já édestaque   na cidade e conquista novos clientes a cada dia.</p>
 
-    <p id="missao" style="font-size: 20px"><em>Nossa missão é: <Strong>"Proporcionar auto-estima e qualidade de vida aos clientes"   </Strong>.</em></p>
+      <p id="missao" style="font-size: 20px"><em>Nossa missão é: <Strong>"Proporcionar auto-estima e qualidade de vida aos clientes"   </Strong>.</em></p>
 
-    <p style="text-align: center">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-  </div>  
+      <p style="text-align: center">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+    </div>  
     
+  <div>
       <h2>Benefícios</h2>
       
     <ul> 
-      <li class="itens">Atendimento ao Clientes</li>
-      <li class="itens">Espaço Diferenciado</li>
-      <li class="itens">Localização</li>
-      <li class="itens">Profissionais Qualificados</li>
-    </ul> 
+        <li class="itens">Atendimento ao Clientes</li>
+        <li class="itens">Espaço Diferenciado</li>
+        <li class="itens">Localização</li>
+        <li class="itens">Profissionais Qualificados</li>
+      </ul> 
+     <img src"beneficios.jpg" class="imagembeneficios">
+    </div> 
   </body>
 </html>
  
@@ -36,6 +39,11 @@
 
 #robinho {
          width: 100%;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 30px;
 }
 
 h1 {
@@ -54,5 +62,14 @@ em strong {
 }        
 
 .itens {
-        font-style: italic
-}       
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}    
