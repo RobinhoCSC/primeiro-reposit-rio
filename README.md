@@ -8,7 +8,7 @@
 
 <body>
     <img id="robinho" src="robinho.jpeg"
-
+    <div>
     <h1>Sobre a Barbearia Alura</h1>
 
     <p style="text-align: center">Localizada no coração da cidade a <Strong>Barbearia Alura</Strong> traz para o mercado o   que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já édestaque   na cidade e conquista novos clientes a cada dia.</p>
@@ -16,6 +16,7 @@
     <p id="missao" style="font-size: 20px"><em>Nossa missão é: <Strong>"Proporcionar auto-estima e qualidade de vida aos clientes"   </Strong>.</em></p>
 
     <p style="text-align: center">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+  </div>  
     
       <h2>Benefícios</h2>
       
@@ -51,3 +52,7 @@ p {
 em strong {
            color: #FF0000;
 }        
+
+.itens {
+        font-style: italic
+}       
